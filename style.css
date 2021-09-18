@@ -45,7 +45,7 @@ section{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 section .title{
     position: relative;
@@ -294,6 +294,7 @@ section .title::after{
     border-radius: 6px;
     padding: 20px 25px;
     cursor: pointer;
+    height: 310px;
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
@@ -338,7 +339,7 @@ section .title::after{
 
 /*************** UI DESIGN *************************/
 .services .serv-content .card1{
-    width: calc(33% - 20px);
+    width: 365px;
     background-size: cover;
     margin-top: 40px;
     text-align: center;
