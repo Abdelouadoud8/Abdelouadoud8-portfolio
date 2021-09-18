@@ -4,7 +4,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     text-decoration: none;
 }
 html{
@@ -71,7 +71,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: #2F62CF;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: #2F62CF;
 }
 .navbar .max-width{
     display: flex;
@@ -101,19 +101,19 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    color: #2F62CF;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
     color: #fff;
 }
 .navbar .logo-2 a{
-    color: crimson;
+    color: #2F62CF;
     font-size: 35px;
     font-weight: 600;
 }
 .navbar .logo-2 a span{
-    color: crimson;
+    color: #2F62CF;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo-2 a span{
@@ -136,7 +136,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: #2F62CF;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -153,7 +153,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: #2F62CF;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -182,7 +182,7 @@ section .title::after{
 .home{
     display: flex;
     background: url("images/banner-2.png") no-repeat center;
-    height: 100vh;
+    height: 80vh;
     color: #fff;
     min-height: 500px;
     background-size: cover;
@@ -205,23 +205,23 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: #2F62CF;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: crimson;
+    background: #2F62CF;
     color: #fff;
     font-size: 18px;
     padding: 12px 20px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #2F62CF;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
+    color: #2F62CF;
     background: none;
 }
 
@@ -244,28 +244,29 @@ section .title::after{
 .about .about-content .right .text{
     font-size: 25px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 2rem;
 }
 .about .about-content .right .text span{
-    color: crimson;
+    color: #2F62CF;
 }
 .about .about-content .right p{
     text-align: justify;
+    margin-bottom: 2rem;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: crimson;
+    background: #2F62CF;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #2F62CF;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: crimson;
+    color: #2F62CF;
     background: none;
 }
 
@@ -281,7 +282,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "14 projects";
+    content: "15 projects";
 }
 .services .serv-content img{
     width: calc(100% - 20px);
@@ -294,11 +295,11 @@ section .title::after{
     border-radius: 6px;
     padding: 20px 25px;
     cursor: pointer;
-    height: 310px;
+    height: 260px;
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: crimson;
+    background: #2F62CF;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -308,7 +309,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: #2F62CF;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -321,18 +322,18 @@ section .title::after{
 }
 .services .serv-content .card a{
     display: inline-block;
-    background: crimson;
+    background: #2F62CF;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #2F62CF;
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover a{
-    color: crimson;
+    color: #2F62CF;
     background: #FFF;
 }
 
@@ -347,9 +348,11 @@ section .title::after{
     padding: 20px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    height: 14.5rem;
+    width: 22rem;
 }
 .services .serv-content .card1:hover{
-    background: crimson !important;
+    background: #2F62CF !important;
 }
 .services .serv-content .card1 .box{
     transition: all 0.3s ease;
@@ -397,7 +400,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card1:hover a{
-    color: crimson;
+    color: #2F62CF;
     background: #FFF;
 }
 
@@ -430,7 +433,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: #2F62CF;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -484,8 +487,8 @@ section .title::after{
 .contact .right form .button button{
     width: 100%;
     height: 100%;
-    border: 2px solid crimson;
-    background: crimson;
+    border: 2px solid #2F62CF;
+    background: #2F62CF;
     color: #fff;
     outline: none;
     font-size: 20px;
@@ -495,7 +498,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .contact .right form .button button:hover{
-    color: crimson;
+    color: #2F62CF;
     background: none;
 }
 
@@ -509,7 +512,7 @@ footer i {
     margin-bottom: 40px;
 }
 footer i:hover {
-    color: crimson;
+    color: #2F62CF;
 }
 footer{
     background: #111;
@@ -521,7 +524,7 @@ footer span{
     font-style: italic;
 }
 footer span a{
-    color: crimson;
+    color: #2F62CF;
     text-decoration: none;
 }
 footer span a:hover{
